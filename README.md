@@ -101,8 +101,8 @@ UsersTableTabs         ← owns: data fetching, tab layout
 
 - Filter state (search, role, status, date range)
 - Pagination (current page, page size, derived slice)
-- Row selection (checked rows `Set`)
-- Row expansion (expanded rows `Set`)
+- Row selection 
+- Row expansion
 
 All state is co-located and passed down as stable handler references.
 
@@ -170,6 +170,7 @@ The API at `GET /api/users` serves data from `src/features/users/mock-data.ts`. 
     }
   ]
 }
+```
 
 
 ---
