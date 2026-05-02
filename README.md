@@ -170,9 +170,7 @@ The API at `GET /api/users` serves data from `src/features/users/mock-data.ts`. 
     }
   ]
 }
-```
 
-The full mock dataset contains 10 users (IDs USR-7812 through USR-7912) with varied roles, statuses, and linked entities. Because the data is embedded in the route handler, the API works without any external service — no mock links to expire.
 
 ---
 
@@ -188,22 +186,3 @@ The full mock dataset contains 10 users (IDs USR-7812 through USR-7912) with var
 | Radix UI | 1.4 | Accessible headless primitives |
 | next-intl | 4 | Internationalization + routing |
 | Lucide React | latest | Icons |
-
----
-
-## Trade-offs & Assumptions
-
-**Client-side filtering vs. server-side**
-Filtering, searching, and pagination are applied client-side after a single fetch of all records. This is appropriate for a mock dataset and simplifies the implementation. A production system with large datasets would push filter/sort/page parameters to the API.
-
-**Static mock data**
-The mock data is a TypeScript array served through an API route rather than an external service (e.g., Mocklyst). This avoids link expiry and makes the project fully self-contained.
-
-**No optimistic mutations**
-Row actions (Delete, Deactivate) show a menu but do not mutate state — the mock API is read-only. Adding mutation would require a writable data layer.
-
-**Tabs share one fetch**
-Both the Selection and Expandable table tabs consume the same fetched dataset from `UsersTableTabs`. Filter and pagination state is independent per tab via separate `useTableState` instances.
-
-**Sorting not implemented**
-Per the task specification, column sorting is intentionally omitted.
