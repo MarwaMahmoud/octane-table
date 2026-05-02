@@ -1,0 +1,104 @@
+{
+  "common": {
+    "appName": "Octane",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "noData": "No data found",
+    "noResults": "No results match your search",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "back": "Back",
+    "actions": "Actions"
+  },
+  "nav": {
+    "users": "User Management",
+    "usersSelection": "User Table with Selection",
+    "usersExpandable": "Expandable User Table"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "ar": "Arabic"
+  },
+  "table": {
+    "search": "Search...",
+    "filters": "Filters",
+    "applyFilters": "Apply Filters",
+    "clearFilters": "Clear Filters",
+    "resetFilters": "Reset",
+    "rowsPerPage": "Rows per page",
+    "all": "All",
+    "showing": "Showing",
+    "of": "of",
+    "results": "results",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "selectAll": "Select all rows",
+    "deselectAll": "Deselect all rows",
+    "selectedRows": "{count} row(s) selected",
+    "expandRow": "Expand row",
+    "collapseRow": "Collapse row",
+    "export": "Export CSV",
+    "addNew": "Add New User",
+    "noColumnsVisible": "No columns visible",
+    "columns": "Columns"
+  },
+  "users": {
+    "title": "User Management",
+    "subtitle": "View and manage all system users, their roles, and subscription status.",
+    "searchPlaceholder": "Search users by name, email, or ID...",
+    "filters": {
+      "role": "Role",
+      "status": "Status",
+      "joinedDate": "Joined Date",
+      "allRoles": "All Roles",
+      "allStatuses": "All Statuses",
+      "from": "From",
+      "to": "To"
+    },
+    "columns": {
+      "userId": "User ID",
+      "nameEmail": "Name & Email",
+      "role": "Role",
+      "joinedDate": "Joined Date",
+      "lastActive": "Last Active",
+      "subscription": "Subscription",
+      "transactions": "Transactions (USD)",
+      "actions": "Actions"
+    },
+    "roles": {
+      "admin": "Admin",
+      "editor": "Editor",
+      "viewer": "Viewer"
+    },
+    "statuses": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "pending": "Pending"
+    },
+    "actions": {
+      "viewProfile": "View Profile",
+      "editDetails": "Edit Details",
+      "changeRole": "Change Role",
+      "deactivateUser": "Deactivate User",
+      "delete": "Delete"
+    },
+    "expandable": {
+      "linkedEntities": "Linked Entities",
+      "linkedEmails": "Linked Emails",
+      "usageQueries": "Usage (Queries)",
+      "lastActiveInEntity": "Last Active in Entity"
+    }
+  },
+  "actions": {
+    "viewProfile": "View Profile",
+    "editDetails": "Edit Details",
+    "changeRole": "Change Role",
+    "deactivateUser": "Deactivate User",
+    "delete": "Delete"
+  }
+}

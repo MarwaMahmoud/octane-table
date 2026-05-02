@@ -1,0 +1,104 @@
+{
+  "common": {
+    "appName": "أوكتان",
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ ما",
+    "retry": "إعادة المحاولة",
+    "noData": "لا توجد بيانات",
+    "noResults": "لا توجد نتائج تطابق بحثك",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "close": "إغلاق",
+    "back": "رجوع",
+    "actions": "الإجراءات"
+  },
+  "nav": {
+    "users": "إدارة المستخدمين",
+    "usersSelection": "جدول المستخدمين مع التحديد",
+    "usersExpandable": "جدول المستخدمين القابل للتوسيع"
+  },
+  "language": {
+    "label": "اللغة",
+    "en": "الإنجليزية",
+    "ar": "العربية"
+  },
+  "table": {
+    "search": "بحث...",
+    "filters": "الفلاتر",
+    "applyFilters": "تطبيق الفلاتر",
+    "clearFilters": "مسح الفلاتر",
+    "resetFilters": "إعادة تعيين",
+    "rowsPerPage": "صفوف في الصفحة",
+    "all": "الكل",
+    "showing": "عرض",
+    "of": "من",
+    "results": "نتيجة",
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "صفحة",
+    "selectAll": "تحديد كل الصفوف",
+    "deselectAll": "إلغاء تحديد كل الصفوف",
+    "selectedRows": "تم تحديد {count} صف",
+    "expandRow": "توسيع الصف",
+    "collapseRow": "طي الصف",
+    "export": "تصدير CSV",
+    "addNew": "إضافة مستخدم جديد",
+    "noColumnsVisible": "لا توجد أعمدة مرئية",
+    "columns": "الأعمدة"
+  },
+  "users": {
+    "title": "إدارة المستخدمين",
+    "subtitle": "عرض وإدارة جميع مستخدمي النظام وأدوارهم وحالة اشتراكاتهم.",
+    "searchPlaceholder": "ابحث عن مستخدمين بالاسم أو البريد الإلكتروني أو المعرف...",
+    "filters": {
+      "role": "الدور",
+      "status": "الحالة",
+      "joinedDate": "تاريخ الانضمام",
+      "allRoles": "جميع الأدوار",
+      "allStatuses": "جميع الحالات",
+      "from": "من",
+      "to": "إلى"
+    },
+    "columns": {
+      "userId": "معرف المستخدم",
+      "nameEmail": "الاسم والبريد",
+      "role": "الدور",
+      "joinedDate": "تاريخ الانضمام",
+      "lastActive": "آخر نشاط",
+      "subscription": "الاشتراك",
+      "transactions": "المعاملات (USD)",
+      "actions": "الإجراءات"
+    },
+    "roles": {
+      "admin": "مدير",
+      "editor": "محرر",
+      "viewer": "مشاهد"
+    },
+    "statuses": {
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "pending": "قيد الانتظار"
+    },
+    "actions": {
+      "viewProfile": "عرض الملف الشخصي",
+      "editDetails": "تعديل التفاصيل",
+      "changeRole": "تغيير الدور",
+      "deactivateUser": "إلغاء تفعيل المستخدم",
+      "delete": "حذف"
+    },
+    "expandable": {
+      "linkedEntities": "الكيانات المرتبطة",
+      "linkedEmails": "البريد الإلكتروني المرتبط",
+      "usageQueries": "الاستخدام (الاستعلامات)",
+      "lastActiveInEntity": "آخر نشاط في الكيان"
+    }
+  },
+  "actions": {
+    "viewProfile": "عرض الملف الشخصي",
+    "editDetails": "تعديل التفاصيل",
+    "changeRole": "تغيير الدور",
+    "deactivateUser": "إلغاء تفعيل المستخدم",
+    "delete": "حذف"
+  }
+}
