@@ -30,7 +30,13 @@ npm run dev
 npm run build
 npm start
 ```
+## Preview
 
+<p align="center">
+  <img src="./screenshots/en-selection.png" width="32%" />
+  <img src="./screenshots/en-expandable.png" width="32%" />
+  <img src="./screenshots/ar-rtl.png" width="32%" />
+</p>
 ---
 
 ## Project Structure
