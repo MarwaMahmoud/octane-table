@@ -88,10 +88,10 @@ The core of this project is `GenericTable<T>` — a fully generic, zero-domain-k
 
 ```
 GenericTable<T>        ← owns: state, rendering, pagination, selection/expansion
-    ↑
+    
 SelectionTable         ← owns: column defs, filter config, row actions
 ExpandableTable        ← owns: column defs, filter config, expanded content
-    ↑
+    
 UsersTableTabs         ← owns: data fetching, tab layout
 ```
 
@@ -114,7 +114,6 @@ All state is co-located and passed down as stable handler references.
 - Cancels in-flight requests via `AbortController` on cleanup
 - Returns `{ data, isLoading, error }` — consumed by `UsersTableTabs`
 
-Data comes from the internal API route at `GET /api/users`, which serves the static mock dataset.
 
 ### Localization
 
@@ -127,23 +126,8 @@ Localization uses [next-intl](https://next-intl-docs.vercel.app/) with `localePr
 
 The `<html>` element's `lang` and `dir` attributes are updated dynamically via a lightweight client component (`HtmlAttributes.tsx`). The language switcher rewrites the current path to the alternate locale, preserving the active page.
 
-All user-visible strings — including table headers, filter labels, action names, status labels, pagination, and error messages — are sourced from `en.json` / `ar.json`. No hardcoded display strings exist in components.
 
 ---
-
-## Features
-
-| Feature | Details |
-|---|---|
-| Row Selection | Checkbox per row; header checkbox selects/deselects all visible rows |
-| Expandable Rows | Toggle to reveal linked entity sub-table per user |
-| Search | Debounce-free live filter across name, email, and ID |
-| Filters | Role (Admin / Editor / Viewer), Status (Active / Inactive / Pending), Joined Date range |
-| Row Actions | View Profile, Edit Details, Change Role, Deactivate User, Delete |
-| Pagination | Page navigation, rows-per-page selector (10 / 25 / 50 / All), row count display |
-| Localization | English + Arabic, RTL layout, language switcher |
-| Loading State | Skeleton rows during fetch |
-| Empty State | Translated empty message when no results match filters |
 
 ---
 
